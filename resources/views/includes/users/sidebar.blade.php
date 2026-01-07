@@ -325,7 +325,7 @@
         </div>
         <a class="navbar-brand" href="/">
             <div class="d-flex align-items-center">
-                <span class="font-sans-serif">Aplikasi Display<br>TV Mesjid</span>
+                <span class="font-sans-serif">Display<br/>TV Mesjid</span>
             </div>
         </a>
     </div>
