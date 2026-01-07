@@ -1,0 +1,12 @@
+[24-Oct-2023 09:12:15 Asia/Jakarta] PHP Warning:  require(/home/layr1858/public_html/masjid.layanan-aplikasi.com/vendor/autoload.php): Failed to open stream: No such file or directory in /home/layr1858/public_html/masjid.layanan-aplikasi.com/artisan on line 18
+[24-Oct-2023 09:12:15 Asia/Jakarta] PHP Warning:  require(/home/layr1858/public_html/masjid.layanan-aplikasi.com/vendor/autoload.php): Failed to open stream: No such file or directory in /home/layr1858/public_html/masjid.layanan-aplikasi.com/artisan on line 18
+[24-Oct-2023 09:12:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/layr1858/public_html/masjid.layanan-aplikasi.com/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/layr1858/public_html/masjid.layanan-aplikasi.com/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/layr1858/public_html/masjid.layanan-aplikasi.com/artisan on line 18
+[24-Oct-2023 09:13:11 Asia/Jakarta] PHP Warning:  require(/home/layr1858/public_html/masjid.layanan-aplikasi.com/vendor/autoload.php): Failed to open stream: No such file or directory in /home/layr1858/public_html/masjid.layanan-aplikasi.com/artisan on line 18
+[24-Oct-2023 09:13:11 Asia/Jakarta] PHP Warning:  require(/home/layr1858/public_html/masjid.layanan-aplikasi.com/vendor/autoload.php): Failed to open stream: No such file or directory in /home/layr1858/public_html/masjid.layanan-aplikasi.com/artisan on line 18
+[24-Oct-2023 09:13:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/layr1858/public_html/masjid.layanan-aplikasi.com/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/layr1858/public_html/masjid.layanan-aplikasi.com/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/layr1858/public_html/masjid.layanan-aplikasi.com/artisan on line 18
