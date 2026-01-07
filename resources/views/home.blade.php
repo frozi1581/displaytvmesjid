@@ -32,11 +32,26 @@
             --radius-2xl: 1.5rem;
         }
 
+        /* Global Typography */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            background: var(--bg-gray-50);
+        }
+
         /* Dashboard Container */
         .dashboard-container {
             padding: 1.5rem;
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
+            transition: all 0.3s ease;
+        }
+
+        @media (max-width: 768px) {
+            .dashboard-container {
+                padding: 1rem;
+            }
         }
 
         /* Welcome Section */
@@ -76,10 +91,26 @@
             gap: 0.75rem;
         }
 
+        @media (max-width: 768px) {
+            .welcome-title {
+                font-size: 1.5rem;
+            }
+        }
+
         .welcome-subtitle {
             font-size: 1.1rem;
             opacity: 0.9;
             margin: 0 0 1rem;
+        }
+
+        @media (max-width: 768px) {
+            .welcome-subtitle {
+                font-size: 1rem;
+            }
+
+            .welcome-section {
+                padding: 1.5rem;
+            }
         }
 
         .welcome-time {
@@ -93,9 +124,16 @@
         /* Stats Cards */
         .stats-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 1.5rem;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.25rem;
             margin-bottom: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            .stats-grid {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
         }
 
         .stat-card {
@@ -195,6 +233,18 @@
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 1rem;
+        }
+
+        @media (max-width: 768px) {
+            .actions-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .actions-grid {
+                grid-template-columns: 1fr;
+            }
         }
 
         .action-btn {

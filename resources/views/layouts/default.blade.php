@@ -14,7 +14,7 @@
     <!-- ===============================================-->
     <!--    Document Title-->
     <!-- ===============================================-->
-    <title>{{ config('app.name', 'Laravel') }} | @yield('title')</title>
+    <title>{{ config('app.name', 'Aplikasi Display TV Masjid') }} | @yield('title')</title>
 
 
     <!-- ===============================================-->
